@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="registerMainDiv">
+        <div class="registerMainDivFlex">
+        <form action="" class="registerFormDiv">
+            <div class="registerH2H3Div">
+                <h2>Sign Up</h2>
+                <h5>Please fill in this form to create an account!</h5>
+                <hr>
+            </div>
+
+            <span class="registerNameBox">
+                <input type="text" name="first" placeholder="First Name" required="">
+                <input type="text" name="last" id="registerLastName" placeholder="Last Name" required="">
+            </span>
+
+            <span class="registerEmailBox">
+                <input type="email" name="email" placeholder="Email" required="">
+            </span>
+
+            <span class="registerPasswordBox">
+                <input type="password" name="password" placeholder="Password" required="">
+            </span>
+
+            <span class="registerConPasswordBox">
+                <input type="password" name="password" placeholder="Confirm Password" required="">
+            </span>
+
+            <span class="registerCheckboxDiv">
+                <input type="checkbox" required=""> 
+                <label>I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></label>
+            </span>
+
+            <button class="registerBtn">Sign Up</button>
+
+            <div class="registerForgetPasswordDiv">
+                <h4>Already have an account? <a href="signin.ejs">Login here</a></h4>
+            </div>
+        </form>
+        <div class="registerImgDiv">
+            <!-- <img src="/images/cartoon11.jpg" alt=""> -->
+            <img src="<%= imageUrl %>" alt="">
+        </div>
+        </div>
+    </div>
+</body>
+</html>

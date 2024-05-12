@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.signinMainDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divForm{
+    position: relative;
+    bottom: -100px;
+    margin: 0px 0px 0px 100px;
+    /* border: 2px solid red; */
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 2px 2px 4px 2px #666565;
+    height: 400px;
+}
+
+.signinImgDiv{
+    position: relative;
+    bottom: -70px;
+    left: -300px;
+}
+
+.emailInputDiv input, .passwordInputDiv input{
+    margin: 0px 0px 15px 0px;
+    width: 307px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.emailInputDiv label,    .passwordInputDiv label{
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #666565;
+}
+
+button{
+    margin: 15px 0px 20px 0px;
+    padding: 10px;
+    width: 307px;
+    background: #028ec1;
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover{
+    background: #05a0d8;
+}
+
+h4{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #080808;
+}
+
+h6{
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+    font-size: 12px;
+    font-weight: 550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #525151;
+}
+
+.checkboxDiv label{
+    margin: 0px 5px;
+    font-size: 15px;
+    font-weight: 550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #525151;
+}
+
+img{
+    width: 200px;
+}
+
+.registerImgDiv{
+    position: relative;
+    bottom: -60px;
+    left: -300px;
+}
+
+.registerMainDivFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.registerFormDiv{
+    width: 410px;
+    /* border: 2px solid red; */
+    padding: 20px;
+    position: relative;
+    bottom: -50px;
+    margin: 0px 0px 0px 100px !important;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 2px 2px 4px 2px #666565;
+}
+
+.registerEmailBox input, .registerPasswordBox input, .registerConPasswordBox input{
+    width: 363px;
+    padding: 10px;
+    margin: 10px 0px;
+    outline: none;
+    font-size: 11.7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.registerNameBox input{
+    margin: 10px 8px 0px 0px !important;
+    padding: 10px 2px 10px 10px;
+    margin: 10px 0px;
+    outline: none;
+    font-size: 11.7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    width: 175px;
+}
+
+#registerLastName{
+    margin: 10px 2px 0px 0px !important;
+    padding: 10px 2px 10px 10px;
+    margin: 10px 0px;
+    outline: none;
+    font-size: 11.7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    width: 175px; 
+}
+
+.registerH2H3Div h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #080808;
+}
+
+.registerH2H3Div hr{
+    /* border-bottom: 1px solid black; */
+    width: 410px;
+    position: relative;
+    left: -20px;
+    margin: 10px 0px;
+}
+
+.registerH2H3Div h5{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #393838;
+}
+
+.registerBtn{
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 363px;
+    border-radius: 2px;
+    background: #028ec1;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.registerBtn:hover{
+    background: #05a0d8;
+}
+
+.registerForgetPasswordDiv h4{
+    color: #525151;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.registerForgetPasswordDiv a{
+    color: #3f9adc;
+}
+
+.registerForgetPasswordDiv a:hover, .registerCheckboxDiv label a:hover{
+    color: #3f9adc;
+    text-decoration: underline;
+}
+
+.registerCheckboxDiv label{
+    color: #525151;
+}
+
+.registerCheckboxDiv label{
+    margin: 0px 5px;
+}
+
+.registerCheckboxDiv a{
+    color: #3f9adc;
+}
+
+@media (max-width:480px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .registerFormDiv{
+        width: 310px;
+        /* border: 2px solid red; */
+        padding: 20px;
+        position: relative;
+        bottom: -100px;
+        margin: 0px 0px 0px 30px !important;
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow: 2px 2px 4px 2px #666565;
+    }
+
+    .registerImgDiv{
+        display: none;
+    }
+
+    .registerEmailBox input, .registerPasswordBox input, .registerConPasswordBox input{
+        width: 268px;
+        padding: 7px;
+        margin: 5px 0px;
+        outline: none;
+        font-size: 11.7px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+    }
+
+    .registerBtn{
+        margin: 10px 0px 20px 0px;
+        padding: 7px;
+        width: 268px;
+        border-radius: 3px;
+        background: #028ec1;
+        border: none;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .registerH2H3Div hr{
+        /* border-bottom: 1px solid black; */
+        width: 310px;
+        position: relative;
+        left: -20px;
+        margin: 10px 0px;
+    }
+
+    .registerNameBox input{
+        margin: 10px 2px 10px 0px !important;
+        padding: 7px 2px 7px 7px;
+        outline: none;
+        font-size: 11.7px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        width: 130px;
+    }
+    
+    #registerLastName{
+        margin: 10px 2px 10px 0px !important;
+        padding: 7px 2px 7px 7px;
+        outline: none;
+        font-size: 11.7px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        width: 130px; 
+    }
+
+    .registerH2H3Div h2{
+        text-align: center;
+        margin: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #080808;
+    }
+
+    .registerH2H3Div h5{
+        font-size: 14px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #393838;
+    }
+
+    .registerCheckboxDiv label{
+        margin: 0px 0px 0px 5px;
+        font-size: 13.5px;
+    }
+
+    .registerCheckboxDiv input{
+        margin-top: 10px !important;
+    }
+
+    .registerForgetPasswordDiv h4{
+        color: #525151;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .divForm{
+        position: relative;
+        bottom: -100px;
+        margin: 0px 0px 0px 30px;
+        /* border: 2px solid red; */
+        width: 310px;
+        padding: 20px;
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow: 2px 2px 4px 2px #666565;
+        height: 400px;
+    }
+    
+    .signinImgDiv{
+        position: relative;
+        bottom: -70px;
+        left: -300px;
+    }
+    
+    .emailInputDiv input, .passwordInputDiv input{
+        margin: 0px 0px 15px 0px;
+        width: 268px;
+        padding: 8px;
+        outline: none;
+        font-size: 16px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+    }
+    
+    .emailInputDiv label,    .passwordInputDiv label{
+        font-size: 13px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        color: #666565;
+    }
+    
+    button{
+        margin: 15px 0px 20px 0px;
+        padding: 8px;
+        width: 268px;
+        background: #028ec1;
+        border: none;
+        border-radius: 3px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    button:hover{
+        background: #05a0d8;
+    }
+    
+    h4{
+        text-align: center;
+        margin: 20px 0px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #080808;
+    }
+    
+    h6{
+        text-align: center;
+        margin: 15px 0px 0px 0px;
+        font-size: 12px;
+        font-weight: 550;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #525151;
+    }
+    
+    .checkboxDiv label{
+        margin: 0px 5px;
+        font-size: 15px;
+        font-weight: 550;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #525151;
+    }
+}
